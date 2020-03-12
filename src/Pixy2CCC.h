@@ -16,9 +16,10 @@
 // (TPixy2).  TPixy takes a communication link as a template parameter so that 
 // all communication modes (SPI, I2C and UART) can share the same code.  
 //
-
 #ifndef _PIXY2CCC_H
 #define _PIXY2CCC_H
+
+#include <Arduino.h>
 
 #define CCC_MAX_SIGNATURE                   7
 

@@ -12,13 +12,12 @@
 //
 // end license header
 //
-// Arduino I2C link class
-
+// Arduino I2C link class.
 #ifndef _PIXY2I2C_H
 #define _PIXY2I2C_H
 
 #include "TPixy2.h"
-#include "Wire.h"
+#include <Wire.h>
 
 #define PIXY_I2C_DEFAULT_ADDR           0x54  
 #define PIXY_I2C_MAX_SEND               16 // don't send any more than 16 bytes at a time

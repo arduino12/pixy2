@@ -13,12 +13,13 @@
 // end license header
 //
 // This file is for defining the Block struct and the Pixy template class version 2.
-// (TPixy2).  TPixy takes a communication link as a template parameter so that 
-// all communication modes (SPI, I2C and UART) can share the same code.  
-//
+// (TPixy2).  TPixy takes a communication link as a template parameter so that
+// all communication modes (SPI, I2C and UART) can share the same code.
 
 #ifndef _PIXY2LINE_H
 #define _PIXY2LINE_H
+
+#include <Arduino.h>
 
 #define LINE_REQUEST_GET_FEATURES                0x30
 #define LINE_RESPONSE_GET_FEATURES               0x31

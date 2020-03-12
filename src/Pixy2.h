@@ -12,13 +12,13 @@
 //
 // end license header
 //
-// Arduino ICSP SPI link class 
+// Arduino ICSP SPI link class.
 
 #ifndef _PIXY2_H
 #define _PIXY2_H
 
 #include "TPixy2.h"
-#include "SPI.h"
+#include <SPI.h>
 
 #define PIXY_SPI_CLOCKRATE       2000000
 

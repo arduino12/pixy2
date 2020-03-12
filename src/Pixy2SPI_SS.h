@@ -12,13 +12,13 @@
 //
 // end license header
 //
-// Arduino SPI with slave select link class
+// Arduino SPI with slave select link class.
 
 #ifndef _PIXY2SPI_SS_H
 #define _PIXY2SPI_SS_H
 
 #include "TPixy2.h"
-#include "SPI.h"
+#include <SPI.h>
 
 #define PIXY_SPI_CLOCKRATE       2000000
 

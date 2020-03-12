@@ -13,13 +13,11 @@
 // end license header
 //
 // Arduino UART link class, intended to be used with an Arduino with more than 1 UART, 
-// like the Arduino MEGA 2560.  
-
+// like the Arduino MEGA 2560.
 #ifndef _PIXY2UART_H
 #define _PIXY2UART_H
 
 #include "TPixy2.h"
-#include "Arduino.h"
 
 #define PIXY_UART_BAUDRATE        19200
 

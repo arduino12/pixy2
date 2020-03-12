@@ -13,14 +13,17 @@
 // end license header
 //
 // Main Pixy template class.  This class takes a link class and uses
-// it to communicate with Pixy over I2C, SPI, UART or USB using the 
+// it to communicate with Pixy over I2C, SPI, UART or USB using the
 // Pixy packet protocol.
-
 #ifndef _TPIXY2_H
 #define _TPIXY2_H
 
+#include <Arduino.h>
 // uncomment to turn on debug prints to console
-#define PIXY_DEBUG
+// #define PIXY_DEBUG
+
+#define PIXY_WIDTH                           (316)
+#define PIXY_HEIGHT                          (208)
 
 #define PIXY_DEFAULT_ARGVAL                  0x80000000
 #define PIXY_BUFFERSIZE                      0x104

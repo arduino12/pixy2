@@ -1,6 +1,6 @@
 {
   "name": "pixy2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": "pixy2, pixy",
   "description": "A library to interface with Pixy2 smart camera module.",
   "repository":
